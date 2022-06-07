@@ -1,0 +1,51 @@
+body{
+/*     
+background:url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSJ8F7ncJ8g3G3SAeb8HJPVKkmbbuOwa3oX7Q&usqp=CAU"); */
+/* background: url("https://c8.alamy.com/comp/RNFPNN/seamless-colorful-pattern-background-kraft-beer-brewing-icons-in-modern-style-on-the-theme-of-beer-its-production-and-use-in-vector-format-RNFPNN.jpg");
+background-repeat: no-repeat;
+background-size: cover;
+ object-position: center; 
+ object-fit: contain;  */
+ display: grid;
+    place-content: center ;
+    min-height: 100vh;
+    background: url("https://minibrew.s3.amazonaws.com/media/images/barrels_Minibrew.width-1124.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+     
+}
+h2{
+    text-align: center;
+    background-color: white;
+}
+.container{
+text-align: center;
+}
+span{
+    color:black;
+    font-weight: bold;
+
+}
+.search{
+    color:blue;
+    border:1px solid black;
+    border-radius:5px;
+    margin-bottom: 20px;
+} 
+.section{
+
+    display:grid;
+    
+place-content: center;
+background-color: aqua;
+    width:400px;
+    height: 250px;
+    border:3px solid black;
+    border-left: 10px solid black;
+    text-align: center;
+    margin-bottom: 30px;
+    margin-left:250px;
+    border-radius: 20px;
+    font-size: 15px;
+}
